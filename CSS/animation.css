@@ -1,0 +1,80 @@
+.falling {
+    animation-name: falling;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes falling {
+  from {
+    translate: 0 -300%;
+  } 
+  to {
+    translate: 0 +500%;
+  } 
+}
+
+
+.rotateForsvind {
+    width: 100%;
+    animation-name: rotateForsvind;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+@keyframes rotateForsvind {
+    from {
+    transform: rotate(8turn);
+    }
+    to {
+    transition: transform 8s;
+    opacity: 0;
+    }
+}
+
+.timer {
+  animation-name: timer;
+  animation-duration: 30s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes timer {
+  0% {
+    transform: scaleY(1);
+    background-color: #0DD98E;
+  }
+
+  100% {
+    transform: scaleY(0);
+    background-color: #F207CB;
+  }
+}
+
+/* effekt klasser */
+.hide{
+  display: none;
+}
+.show { 
+  font-display: block;
+}
+.frys {
+  animation-play-state: paused;
+}
+.pulse {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+  
+}

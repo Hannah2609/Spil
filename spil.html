@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/animation.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+
+    <title>DJpanic</title>
+    <body>
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <a href="Index.html">Forside</a>
+            </li>
+            <li>
+              <a href="spil.html">Spillet</a>
+            </li>
+            <li>
+              <a href="ide.html">Ide</a>
+            </li>
+            <li>
+              <a href="teknik.html">Teknik</a>
+            </li>
+            <li>
+              <a href="grafik.html">Grafik</a>
+            </li>
+            <li>
+              <a href="assets.html">Asset liste</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div id="screen">
+          <div id="game">
+            <div id="game_background"></div>
+            <div id="game_elements">
+              <div id="green_container">
+                <div id="green"></div>
+              </div>
+
+              <div id="pink_container">
+                <div id="pink"></div>
+              </div>
+
+              <div id="lilla_container">
+                <div id="lilla"></div>
+              </div>
+
+              <div id="red_container">
+                <div id="red"></div>
+              </div>
+
+              <div id="game_ui">
+                <div id="point_container">
+                  <div id="point"><span id="current_point">0</span></div>
+                </div>
+
+                <div id="liv_container">
+                  <div id="liv"><span id="current_liv">3</span></div>
+                </div>
+
+                <div id="timer_container">
+                  <div id="timer_sprite"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="start">
+            <div id="startknap_container">
+              <div id="startknap"></div>
+            </div>
+          </div>
+
+          <div id="game_over">
+            <div id="replay_container">
+              <div id="replay"></div>
+            </div>
+          </div>
+
+          <div id="instructions">
+            <div id="play_container">
+              <div id="play"></div>
+            </div>
+          </div>
+
+          <div id="level_complete">
+            <div class="replay_container">
+              <div class="replay"></div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer></footer>
+
+      <audio
+        id="instructions_background"
+        src="sounds/Dj Tux Outside Club - Intro Uden For Klub.mp3"
+      ></audio>
+      <audio id="background_music" src="sounds/Dj Tux Inside Club - Party Time.mp3"></audio>
+      <audio id="rigtig_plade_sound" src="sounds/DJ Tux - Scratch.mp3"></audio>
+      <audio id="forkerte_plader_sound" src="sounds/DJ Tux - Bad Scratch.mp3"></audio>
+      <audio id="winning_sound" src="sounds/winner.mp3"></audio>
+      <audio id="losing_sound" src="sounds/loser.mp3"></audio>
+      <script src="JS/spil.js"></script>
+    </body>
+  </head>
+</html>

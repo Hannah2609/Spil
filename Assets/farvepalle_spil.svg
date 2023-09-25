@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1652" height="522" viewBox="0 0 1652 522">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1652" height="522"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="1652" height="522" fill="#fff"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="260" height="260" transform="translate(44 38)" fill="#f207cb"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="260" height="260" transform="translate(304 38)" fill="#8704bf"/>
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="260" height="260" transform="translate(564 38)" fill="#171559"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="260" height="260" transform="translate(824 38)" fill="#0dd98e"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="260" height="260" transform="translate(1084 38)" fill="#f25d07"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="260" height="152" transform="translate(824 296)" fill="#3abf36"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="260" height="150" transform="translate(564 298)" fill="#1a1a3f"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="260" height="260" transform="translate(1344 38)" fill="#ffe001"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="260" height="150" transform="translate(44 298)" fill="#ff0505"/>
+  </g>
+</svg>

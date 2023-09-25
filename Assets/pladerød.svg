@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: #f2d5c4;
+      }
+
+      .cls-7 {
+        fill: #ff0505;
+      }
+
+      .cls-8 {
+        fill: url(#Ikke-navngivet_forløb_25);
+      }
+
+      .cls-9 {
+        fill: url(#Ikke-navngivet_forløb_24);
+      }
+
+      .cls-2 {
+        stroke: #26181e;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-5 {
+        stroke: #666;
+      }
+
+      .cls-4 {
+        stroke: #8704bf;
+        stroke-width: 16px;
+      }
+
+      .cls-5 {
+        stroke-width: .5px;
+      }
+
+      .cls-10 {
+        fill: url(#Ikke-navngivet_forløb_25-2);
+      }
+    </style>
+    <linearGradient id="Ikke-navngivet_forløb_24" data-name="Ikke-navngivet forløb 24" x1="1479.99" y1="-697.91" x2="1394.43" y2="-788.54" gradientTransform="translate(-484.79 -1165.86) rotate(89.67)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".1" stop-color="#131313" stop-opacity="1"/>
+      <stop offset=".29" stop-color="#464646" stop-opacity=".98"/>
+      <stop offset=".48" stop-color="gray" stop-opacity=".97"/>
+      <stop offset=".5" stop-color="#7a7a7a" stop-opacity=".97"/>
+      <stop offset=".73" stop-color="#222" stop-opacity=".99"/>
+      <stop offset=".84" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Ikke-navngivet_forløb_25" data-name="Ikke-navngivet forløb 25" x1="-663.74" y1="-709.49" x2="-749.31" y2="-800.13" gradientTransform="translate(889.48 -571.36) rotate(-89.9)" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#000"/>
+      <stop offset=".5" stop-color="gray" stop-opacity=".97"/>
+      <stop offset=".88" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Ikke-navngivet_forløb_25-2" data-name="Ikke-navngivet forløb 25" x1="1395.03" y1="-650.39" x2="1345.02" y2="-703.37" gradientTransform="translate(-447.21 -1184.09) rotate(91.24)" xlink:href="#Ikke-navngivet_forløb_25"/>
+  </defs>
+  <circle cx="200" cy="200" r="200"/>
+  <path class="cls-9" d="M387.84,199.66l-187.71,1.08c.44,62.52,.89,125.04,1.33,187.57,16.09-.18,72.03-2.81,121.25-45.22,63.31-54.56,65.06-131.47,65.13-143.42Z"/>
+  <path class="cls-8" d="M11.73,200.32l187.71,.33c.03-62.52,.05-125.05,.08-187.57-16.09,.06-72.05,2.26-121.59,44.31C14.22,111.48,11.89,188.38,11.73,200.32Z"/>
+  <ellipse class="cls-10" cx="200.63" cy="199.6" rx="77.36" ry="77.61" transform="translate(-5.38 5.56) rotate(-1.57)"/>
+  <ellipse class="cls-7" cx="199.82" cy="199.94" rx="57.18" ry="56.93" transform="translate(-5.39 5.54) rotate(-1.57)"/>
+  <circle class="cls-6" cx="200.38" cy="200.38" r="7.92" transform="translate(-5.4 5.55) rotate(-1.57)"/>
+  <path class="cls-6" d="M199.38,201.64c1.93,0,1.93-3,0-3s-1.93,3,0,3h0Z"/>
+  <path class="cls-4" d="M168.01,191.2c-1.2,3.75-1.55,7.14-1.59,9.75"/>
+  <path class="cls-4" d="M185.85,170.78c-.64,.3-3.06,1.44-5.86,3.56-2.82,2.13-4.84,4.35-6.2,6.06"/>
+  <path class="cls-4" d="M199.06,167.93c-1.46,0-3.38,.09-5.61,.48"/>
+  <path class="cls-4" d="M224.55,179.84c-.99-1.18-5.21-6.03-12.65-9.17"/>
+  <path class="cls-4" d="M229.65,212.19c2.31-5.72,2.42-10.54,2.43-11.62,.02-1.61-.04-7.61-3.35-14.32"/>
+  <path class="cls-4" d="M212.54,230.37c1.99-.94,7.01-3.56,11.54-8.95"/>
+  <path class="cls-4" d="M188.99,231.91c4.95,1.67,9.05,1.7,10.45,1.68"/>
+  <path class="cls-4" d="M169.84,215.38c3.32,6.59,7.98,10.16,9.94,11.62"/>
+  <path class="cls-2" d="M212.08,153.11s1.28,.32,2.52,.69c1.72,.52,4.97,1.78,9.01,3.78"/>
+  <path class="cls-1" d="M209.64,152.58c.48,.09,1.35,.27,2.44,.54"/>
+  <path class="cls-2" d="M205.7,151.98c1.56,.17,2.88,.39,3.93,.59"/>
+  <path class="cls-2" d="M200.1,151.7c1.89-.01,3.76,.09,5.6,.29"/>
+  <path class="cls-1" d="M192.18,152.38c2.58-.44,5.22-.67,7.92-.69"/>
+  <path class="cls-2" d="M181.42,155.52c3.4-1.44,7.01-2.5,10.76-3.14"/>
+  <path class="cls-1" d="M175.1,158.77c2.02-1.23,4.13-2.31,6.32-3.24"/>
+  <path class="cls-2" d="M161.62,170.92c1.19-1.57,2.48-3.06,3.85-4.48,2.86-2.94,6.1-5.53,9.62-7.68"/>
+  <path class="cls-1" d="M153.65,186.68c1.69-5.77,4.42-11.09,7.97-15.76"/>
+  <path class="cls-2" d="M151.7,200.65c-.03-4.85,.66-9.55,1.95-13.98"/>
+  <path class="cls-1" d="M151.95,205.34c-.16-1.54-.24-3.11-.25-4.69"/>
+  <path class="cls-2" d="M155.51,219.27c-1.84-4.36-3.06-9.04-3.55-13.93"/>
+  <path class="cls-1" d="M159.13,226.24c-1.39-2.21-2.6-4.53-3.63-6.96"/>
+  <path class="cls-2" d="M166.62,235.44c-1.39-1.34-2.7-2.76-3.93-4.26s-2.47-3.22-3.55-4.94"/>
+  <path class="cls-1" d="M177.34,243.27c-3.93-2.12-7.53-4.75-10.72-7.82"/>
+  <path class="cls-2" d="M186.28,246.98c-3.13-.94-6.12-2.19-8.94-3.72"/>
+  <path class="cls-1" d="M193.91,248.63c-2.62-.35-5.17-.9-7.63-1.65"/>
+  <path class="cls-2" d="M200.66,249.05c-2.29,.01-4.54-.13-6.74-.42"/>
+  <path class="cls-1" d="M204.92,248.85c-1.4,.13-2.82,.2-4.26,.21"/>
+  <path class="cls-2" d="M222.33,243.84c-5.32,2.69-11.19,4.43-17.41,5.01"/>
+  <path class="cls-1" d="M229.04,239.73c-2.11,1.54-4.35,2.92-6.71,4.11"/>
+  <path class="cls-2" d="M234.6,234.99c-1.73,1.71-3.59,3.3-5.57,4.74"/>
+  <path class="cls-1" d="M238.84,230.22c-1.31,1.68-2.72,3.28-4.24,4.77"/>
+  <path class="cls-2" d="M245.35,219.06c-1.67,4.02-3.87,7.77-6.51,11.17"/>
+  <path class="cls-2" d="M248.13,209.91c-.63,3.17-1.57,6.23-2.78,9.15"/>
+  <path class="cls-1" d="M249.06,200.1c.02,3.36-.3,6.64-.93,9.81"/>
+  <path class="cls-2" d="M248.01,190.29c.67,3.17,1.03,6.44,1.05,9.8"/>
+  <path class="cls-1" d="M243.48,177.73c2.05,3.9,3.6,8.12,4.53,12.56"/>
+  <path class="cls-2" d="M230.23,161.92c5.47,4.25,10,9.64,13.25,15.81"/>
+  <circle class="cls-3" cx="200.38" cy="200.38" r="122.26"/>
+  <path class="cls-5" d="M44.91,200.51c-.49-86.05,68.54-152.89,154.55-153.38"/>
+  <path class="cls-5" d="M355.85,199.49c.49,86.05-69.31,158.89-155.32,159.38"/>
+  <circle class="cls-3" cx="200.61" cy="200.87" r="167.98" transform="translate(-.73 .73) rotate(-.21)"/>
+  <path class="cls-5" d="M99.25,200.79c-.32-55.95,44.75-101.56,100.67-101.88"/>
+  <path class="cls-5" d="M301.74,199.63c.32,55.95-44.75,101.56-100.67,101.88"/>
+</svg>

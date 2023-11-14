@@ -2,6 +2,13 @@ window.addEventListener("load", sidenVises);
 
 let liv = 3;
 let point = 0;
+let rndNum;
+
+// --------- generer random nummer -------------
+
+function generateRandomNumber(max) {
+  return Math.floor(Math.random() * max) + 1;
+}
 
 function sidenVises() {
   console.log("sidenVises");
@@ -26,16 +33,16 @@ function VisInstructions() {
     .querySelector("#play_container")
     .addEventListener("click", StartSpillet);
 
-  document.querySelector("#instructions_background").volume = 0.3;
-  document.querySelector("#instructions_background").play();
+  // document.querySelector("#instructions_background").volume = 0.3;
+  // document.querySelector("#instructions_background").play();
 }
 
 function StartSpillet() {
   console.log("startspillet");
 
-  document.querySelector("#instructions_background").pause();
-  document.querySelector("#background_music").volume = 0.05;
-  document.querySelector("#background_music").play();
+  // document.querySelector("#instructions_background").pause();
+  // document.querySelector("#background_music").volume = 0.05;
+  // document.querySelector("#background_music").play();
 
   hideAllScreens();
   document.querySelector("#game").classList.remove("hide");
@@ -46,8 +53,8 @@ function StartSpillet() {
   document.querySelector("#current_point").textContent = point;
   document.querySelector("#current_liv").textContent = liv;
 
-  document.querySelector("#winning_sound").pause();
-  document.querySelector("#losing_sound").pause();
+  // document.querySelector("#winning_sound").pause();
+  // document.querySelector("#losing_sound").pause();
 
   rndNum = generateRandomNumber(12);
   //---------- Rød plade får ny random position og falder ---------
@@ -108,8 +115,8 @@ function clickRed() {
     .querySelector("#red_container")
     .removeEventListener("mousedown", clickRed);
 
-  document.querySelector("#rigtig_plade_sound").volume = 0.2;
-  document.querySelector("#rigtig_plade_sound").play();
+  // document.querySelector("#rigtig_plade_sound").volume = 0.2;
+  // document.querySelector("#rigtig_plade_sound").play();
 
   document.querySelector("#red_container").classList.add("frys");
   document.querySelector("#red").classList.add("rotateForsvind");
@@ -158,8 +165,8 @@ function clickGreen() {
     .querySelector("#green_container")
     .removeEventListener("mousedown", clickGreen);
 
-  document.querySelector("#forkerte_plader_sound").volume = 0.5;
-  document.querySelector("#forkerte_plader_sound").play();
+  // document.querySelector("#forkerte_plader_sound").volume = 0.5;
+  // document.querySelector("#forkerte_plader_sound").play();
 
   document.querySelector("#green_container").classList.add("frys");
   document.querySelector("#green").classList.add("rotateForsvind");
@@ -210,8 +217,8 @@ function clickPink() {
     .querySelector("#pink_container")
     .removeEventListener("mousedown", clickPink);
 
-  document.querySelector("#forkerte_plader_sound").volume = 0.5;
-  document.querySelector("#forkerte_plader_sound").play();
+  // document.querySelector("#forkerte_plader_sound").volume = 0.5;
+  // document.querySelector("#forkerte_plader_sound").play();
 
   document.querySelector("#pink_container").classList.add("frys");
   document.querySelector("#pink").classList.add("rotateForsvind");
@@ -253,11 +260,6 @@ function genstartPink() {
     .querySelector("#pink_container")
     .addEventListener("mousedown", clickPink);
 }
-// --------- generer random nummer -------------
-
-function generateRandomNumber(max) {
-  return Math.floor(Math.random() * max) + 1;
-}
 
 //--------  Lilla  -----------
 
@@ -267,8 +269,8 @@ function clickLilla() {
     .querySelector("#lilla_container")
     .removeEventListener("mousedown", clickLilla);
 
-  document.querySelector("#forkerte_plader_sound").volume = 0.5;
-  document.querySelector("#forkerte_plader_sound").play();
+  // document.querySelector("#forkerte_plader_sound").volume = 0.5;
+  // document.querySelector("#forkerte_plader_sound").play();
 
   document.querySelector("#lilla_container").classList.add("frys");
   document.querySelector("#lilla").classList.add("rotateForsvind");
@@ -325,7 +327,7 @@ function endGame() {
     }
   }
 
-  document.querySelector("#background_music").pause();
+  // document.querySelector("#background_music").pause();
 
   //Stopper timer animationen og fjerner classes
   document.querySelector("#timer_sprite").classList.remove("time");
@@ -401,8 +403,8 @@ function losing() {
     .querySelector("#replay_container")
     .addEventListener("click", StartSpillet);
 
-  document.querySelector("#losing_sound").volume = 0.2;
-  document.querySelector("#losing_sound").play();
+  // document.querySelector("#losing_sound").volume = 0.2;
+  // document.querySelector("#losing_sound").play();
 }
 
 // ------------- winning -------------
@@ -417,8 +419,8 @@ function winning() {
     .querySelector(".replay_container")
     .addEventListener("click", StartSpillet);
 
-  document.querySelector("#winning_sound").volume = 0.2;
-  document.querySelector("#winning_sound").play();
+  // document.querySelector("#winning_sound").volume = 0.2;
+  // document.querySelector("#winning_sound").play();
 }
 
 // ------------ hide screens --------
